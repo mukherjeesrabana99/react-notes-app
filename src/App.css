@@ -1,5 +1,33 @@
+body{
+  background-color:pink;
+  display:flex;
+}
 .App {
   text-align: center;
+  display:flex;
+  flex-direction: column;
+
+}
+.container{
+  display:flex;
+  margin-left:20px;
+}
+h3{
+  color:purple;
+  font-family: 'Montserrat', sans-serif;
+  margin-right:120px;
+
+}
+
+#add-btn{
+    width:90px;
+    height:90px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color:white;
+    background-color: purple;
+    display:block;
+    margin-left:550px;
 }
 
 .App-logo {
